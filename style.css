@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+:root {
+    --bs-font-sans-serif: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    
+}
+
+.btn-primary-custom {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #96BB7C; 
+    --bs-btn-border-color: #96BB7C;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #96BB7C;
+    --bs-btn-hover-border-color: #96BB7C;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #96BB7C;
+    --bs-btn-active-border-color: #96BB7C;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #96BB7C;
+    --bs-btn-disabled-border-color: #96BB7C;
+  }
