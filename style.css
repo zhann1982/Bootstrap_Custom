@@ -5,95 +5,175 @@
 
 :root {
     --bs-font-sans-serif: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 
-    
+body {
+  color: #252B42;
 }
 
 .btn-primary-custom {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #96BB7C; 
-    --bs-btn-border-color: #96BB7C;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #83a16d ;
-    --bs-btn-hover-border-color: #83a16d ;
-    --bs-btn-focus-shadow-rgb: 150, 187, 124;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #83a16d ;
-    --bs-btn-active-border-color: #83a16d ;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #c0d3b3;
-    --bs-btn-disabled-border-color: #c0d3b3;
-  }
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #96BB7C; 
+  --bs-btn-border-color: #96BB7C;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #83a16d ;
+  --bs-btn-hover-border-color: #83a16d ;
+  --bs-btn-focus-shadow-rgb: 150, 187, 124;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #83a16d ;
+  --bs-btn-active-border-color: #83a16d ;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #c0d3b3;
+  --bs-btn-disabled-border-color: #c0d3b3;
+}
 
-  .btn-outline-primary-custom {
-    --bs-btn-color: #96BB7C;
-    --bs-btn-border-color: #96BB7C;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #96BB7C;
-    --bs-btn-hover-border-color: #96BB7C;
-    --bs-btn-focus-shadow-rgb: 150, 187, 124;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #96BB7C;
-    --bs-btn-active-border-color: #96BB7C;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #c0d3b3;
-    --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #c0d3b3;
-    --bs-gradient: none;
-  }
+.btn-outline-primary-custom {
+  --bs-btn-color: #96BB7C;
+  --bs-btn-border-color: #96BB7C;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #96BB7C;
+  --bs-btn-hover-border-color: #96BB7C;
+  --bs-btn-focus-shadow-rgb: 150, 187, 124;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #96BB7C;
+  --bs-btn-active-border-color: #96BB7C;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #c0d3b3;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #c0d3b3;
+  --bs-gradient: none;
+}
 
-  .text-primary-custom {
-    --bs-text-opacity: 1;
-    color: #96BB7C !important;
-  }
+.text-primary-custom {
+  --bs-text-opacity: 1;
+  color: #96BB7C !important;
+}
 
-  .link-primary-custom {
-    color: #96BB7C  !important;
-    -webkit-text-decoration-color: #96BB7C !important;
-    text-decoration-color: #96BB7C !important;
-  }
+.text-dark-custom {
+  --bs-text-opacity: 1;
+  color: #252B42 !important;
+}
 
-  .link-primary-custom:hover, .link-primary-custom:focus {
-    color: #83a16d  !important;
-    -webkit-text-decoration-color: #83a16d !important;
-    text-decoration-color: #83a16d !important;
-  }
+.link-primary-custom {
+  color: #96BB7C  !important;
+  -webkit-text-decoration-color: #96BB7C !important;
+  text-decoration-color: #96BB7C !important;
+}
 
-  /* дополнительный размер шрифта в 14px */
-  .fs-7 {
-    font-size: 0.875rem !important;  /* 14px */
-  }
+.link-primary-custom:hover, .link-primary-custom:focus {
+  color: #83a16d  !important;
+  -webkit-text-decoration-color: #83a16d !important;
+  text-decoration-color: #83a16d !important;
+}
 
+/* дополнительный размер шрифта в 14px */
+.fs-7 {
+  font-size: 0.875rem !important;  /* 14px */
+}
+
+.py-3-custom {
+  padding-top: 0.875rem !important;
+  padding-bottom: 0.875rem !important;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 1px;
+}
+
+.short-red-line {
+  border: 1px solid var(--bs-danger);
+  width: 50px;
+}
+
+.short-red-line-wider {
+  border: 3px solid var(--bs-danger);
+  width: 97px;
+}
+
+/* .main__advantages-page-title__info {  
+  width: 470px;
+} */
+
+.section__popular-courses-page__info {
+  max-width: 360px;
+}
+
+.bg-pink-custom {
+  background-color: #FFF2F3;
+}
+
+.py-6-custom {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+
+input.newsletter__email::placeholder {
+  font-size: 0.875rem;
+}
+
+/* input.newsletter__email {
+  font-size: 0.875rem;
+} */
+
+.w-lg-custom {
+  width: 50%;
+}
+
+.list-group-custom {
+  text-indent: 0;
+  li {
+    border: none;
+  }
+}
+
+.bi-md {
+  display: block;
+  font-size: 23px;
+  color: var(--bs-primary-custom);
+}
+
+@media (max-width: 992px) {
+  .main__advantages-page-title__info {
+    margin-inline: auto;
+  } 
+  .section__popular-courses-page__info {
+    margin-inline: auto;
+  }
   .py-3-custom {
-    padding-top: 0.875rem !important;
-    padding-bottom: 0.875rem !important;
+    padding-top: 0.375rem !important;
+    padding-bottom: 0.375rem !important;
   }
-
-  .letter-spacing-1 {
-    letter-spacing: 1px;
+  .py-6-custom {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
   }
-
-  .short-red-line {
-    border: 1px solid var(--bs-danger);
-    width: 50px;
+  .w-lg-custom {
+    width: 75%;
   }
+}
 
-  .short-red-line-wider {
-    border: 3px solid var(--bs-danger);
-    width: 85px;
+@media (max-width: 575.98px) {
+  .links-page__column {
+    margin-inline: 15%;
   }
+}
 
- .main__advantages-page-title__info {
-    width: 470px;
- }
+@media (max-width: 539.99px) {
+  .w-lg-custom {
+    width: 95%;
+  }
+  .input-group-custom {
+    display: flex;
+    flex-direction: column;
 
- @media (max-width: 992px) {
-    .main__advantages-page-title__info {
-        margin-inline: auto;
-     } 
- }
-
- .bg-pink {
-    background-color: #FFF2F3;
- }
+    input {
+      width: 100% !important;
+      margin-bottom: 10px;
+      border-radius: var(--bs-border-radius) !important;
+    }
+    button {
+      border-radius: var(--bs-border-radius) !important;
+    }
+  }
+}
