@@ -5,7 +5,8 @@
 
 :root {
     --bs-font-sans-serif: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
+    --bs-primary-custom: #96BB7C; /* custom color */
+  }
 
 body {
   color: #252B42;
